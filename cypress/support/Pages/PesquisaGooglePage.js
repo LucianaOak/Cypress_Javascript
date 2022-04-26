@@ -12,13 +12,12 @@ class PesquisaGooglePage{
     }
 
     fazerBusca(){
-        cy.get(pesquisaGoogleElements.botaoFazerBusca());
+        pesquisaGoogleElements.botaoFazerBusca();
     }
 
     
     clicaElementoencontrado(){
-        cy.get(pesquisaGoogleElements.encontraElemento());
-        cy.get('encontraElemento').click();
+        pesquisaGoogleElements.encontraElemento();
 
     }
 
